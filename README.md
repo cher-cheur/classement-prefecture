@@ -1,6 +1,6 @@
 # Etat de santé des préfctures en France
 
-Visitez l'[application en ligne](https://cher-cheur-classement-prefecture-str-ptg0d2.streamlit.app/).
+Visitez l'[application intéractive en ligne](https://cher-cheur-classement-prefecture-str-ptg0d2.streamlit.app/).
 
 ## Nombre d'avis au total, note moyenne des préfectures
 
