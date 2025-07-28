@@ -31,7 +31,7 @@ Visitez l'[application intéractive en ligne](https://cher-cheur-classement-pref
 Les données utilisées dans ce projet sont issues d'une collecte d'informations sur les préfectures de France via l'API Google Maps. Elles incluent la note moyenne sur 5 et le nombre total d'avis.
 
 * Fichier de données : `data/my_data.csv`
-* Source GeoJSON pour la carte : `https://static.data.gouv.fr/resources/...a-dep2020-geojson.json`
+* Source GeoJSON pour la carte : `https://static.data.gouv.fr/resources/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/20210210-183703/a-dep2020-geojson.json`
 
 ## 📦 Installation et Lancement du Projet
 
@@ -39,8 +39,8 @@ Pour exécuter ce projet en local, suivez les étapes suivantes :
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone <URL_DE_VOTRE_DEPOT>
-    cd <NOM_DU_DOSSIER_DU_PROJET>
+    git clone https://github.com/cher-cheur/classement-prefecture.git
+    cd classement-prefecture
     ```
 
 2.  **Installez les dépendances système (PROJ et GDAL) :**
@@ -85,8 +85,8 @@ Pour exécuter ce projet en local, suivez les étapes suivantes :
     L'application s'ouvrira automatiquement dans votre navigateur par défaut.
 
 ## 📁 Structure du Projet
-
-votre_projet_portfolio/
+````
+classement-prefecture/
 ├── src/                  # Contient le code source de l'application
 │   ├── pages/            # Scripts pour les différentes pages de Streamlit
 │   │   └── map_page.py   # Page de visualisation de la carte
@@ -98,6 +98,7 @@ votre_projet_portfolio/
 ├── README.md             # Ce fichier de documentation
 ├── requirements.txt      # Liste des dépendances Python
 └── Procfile.txt          # Configuration pour le déploiement (ex: Heroku)
+````
 
 ## 📈 Améliorations Possibles
 
@@ -108,6 +109,6 @@ votre_projet_portfolio/
 
 ## 🤝 Auteur
 
-Taha DAANOUN / cher-cheur @ GitHub
+Taha DAANOUN / cher-cheur @ GitHub.
 ![LinkedIn](https://www.linkedin.com/in/tahadaanoun/)
 ![GitHub](https://github.com/cher-cheur)
