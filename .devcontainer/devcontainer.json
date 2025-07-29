@@ -6,7 +6,7 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "str.py"
+        "src/main_dashboard.py" // MODIFIÉ ICI
       ]
     },
     "vscode": {
@@ -19,7 +19,7 @@
   },
   "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
   "postAttachCommand": {
-    "server": "streamlit run str.py --server.enableCORS false --server.enableXsrfProtection false"
+    "server": "streamlit run src/main_dashboard.py --server.enableCORS false --server.enableXsrfProtection false" // MODIFIÉ ICI
   },
   "portsAttributes": {
     "8501": {
