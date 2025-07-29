@@ -4,7 +4,7 @@ Ce projet Streamlit interactif propose une analyse détaillée et une visualisat
 
 ## Etat de santé des préfctures en France
 
-Visitez l'[application intéractive en ligne](https://cher-cheur-classement-prefecture-str-ptg0d2.streamlit.app/).
+Visitez l'[application intéractive en ligne](https://classement-prefecture.streamlit.app/).
 
 ## ✨ Fonctionnalités Clés
 

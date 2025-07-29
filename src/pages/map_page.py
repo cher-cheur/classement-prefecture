@@ -5,7 +5,7 @@ import altair as alt
 # --- Nouvelle fonction pour charger les données ---
 @st.cache_data # Utilise le cache de Streamlit
 def load_data(file_path):
-    df = pd.read_csv(file_path) # Assurez-vous d'utiliser le bon nom de fichier ici
+    df = pd.read_csv(file_path) 
     return df
 # --------------------------------------------------
 
@@ -31,7 +31,7 @@ def main():
     st.write("Source des données : Google Maps")
 
     # Appel de la fonction pour charger les données
-    df = load_data("data/my_data.csv") # Mettez à jour le nom de fichier ici si ce n'est pas déjà fait
+    df = load_data("data/my_data.csv")
 
     # Appel de la fonction pour créer la carte
     map_chart = create_prefecture_map(df)
